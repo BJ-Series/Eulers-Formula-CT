@@ -1098,7 +1098,7 @@ var getQuaternaryEntries = () => {
     var getCurrencyFromTau = (tau) => [tau.max(BigNumber.ONE).pow(2.5), currency.symbol];
 
     var getQ1 = (level) => Utils.getStepwisePowerSum(level, 2, 10, 0);
-    var getQ2 = (level) => BigNumber.TWO.pow(level);
+    var getQ2 = (level) => BigNumber.from(1e308).pow(level);
     var getA1 = (level) => Utils.getStepwisePowerSum(level, 2, 10, 1);
     var getA2 = (level) => Utils.getStepwisePowerSum(level, 40, 10, 1);
     var getA3 = (level) => BigNumber.TWO.pow(level);
