@@ -27,7 +27,7 @@ import { Vector3 } from "../../../Projects/theory-sdk/api/Vector3";
 import {Color} from "./api/ui/properties/Color";
 import {game} from "./api/Game";
 
-requiresGameVersion("1.4.28");
+requiresGameVersion("99999.0.0");
 
 var id = "eulers_formula";
 var name = "Euler's Formula";
